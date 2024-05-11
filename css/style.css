@@ -1,0 +1,793 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+  font-weight: 400;
+    font-style: normal;
+}
+#header{
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+    background: url(../cafe-image/BG.webp);
+    background-size: cover;
+    background-position: center;
+}
+.navbar-expand-lg .navbar-nav{
+   margin: auto;
+}
+.nav-item{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.nav-link span{
+    color: #b98d58;
+}
+.nav-link{
+    color: #000 !important;
+    transition: all .5s ease;
+}
+.nav-link:hover{
+    color: #b98d58 !important;
+}
+.nav-icon i{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.head-btn{
+    margin-left: 40px;
+}
+.head-btn a button{
+    padding: 12px 30px;
+    background-color: #b98d58;;
+    color: #fff;
+    border: 1px solid #b98d58;
+    transition: .6s ease-in-out;
+}
+.head-btn a button:hover{
+    background-color: transparent;
+    color: #b98d58;
+    border: 1px solid #b98d58;
+}
+.head-content{
+    padding-top: 80px;
+}
+.head-content h1{
+    font-size: 50px !important;
+    color: #333;
+    font-family: cormorant, Sans-serif;
+    font-size: 72px;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+   
+   
+}
+.head-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #7A7A7A;
+}
+.head-content img{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 12/9;
+}
+.hed-btn{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.hed-btn2 a button{
+    padding: 12px 30px;
+    background-color: #b98d58;
+    color: #fff;
+    border: 1px solid #b98d58;
+    transition: .5s ease;
+}
+.hed-btn2 a button:hover{
+    background-color: transparent;
+    color: #b98d58;
+    border: 1px solid #b98d58;
+}
+.hed-btn3 a button{
+    padding: 12px 30px;
+    background-color: transparent;
+    color: #b98d58;
+    border: 1px solid #b98d58;
+    transition: .5s ease;
+}
+.hed-btn3 a button:hover{
+    background-color: #b98d58;
+    color: #fff;
+    border: 1px solid #b98d58; 
+}
+
+
+.clr{
+    clear: both;
+}
+#about{
+    width: 100%;
+    height:  auto;
+    padding: 10px 50px;
+   
+}
+.about-title{
+    text-align: center;
+    
+}
+.about-title h6{
+    padding-top: 50px;
+    color: #b98d58;
+}
+.about-title h1{
+    font-family: "Sedan SC", serif;
+    font-size: 60px !important;
+    padding-top: 50px;
+    color: #000;
+}
+.about-title img{
+    padding-top: 50px;
+}
+
+.about-content{
+    padding-top: 150px;
+   padding-bottom: 185px;
+}
+.about-text{
+  text-align: start;
+}
+.about-text h3{
+    font-family: "Sedan SC", serif;
+}
+.about-text p{
+    margin-top: 30px;
+}
+
+.about-btn{
+    margin-top: 30px;
+}
+.about-btn a button{
+    padding: 12px 30px;
+    background-color: #b98d58;
+    color: #fff;
+    border: 1px solid #b98d58;
+    transition: .5s ease;
+}
+.about-btn a button:hover{
+    background-color: transparent;
+    color: #b98d58;
+    border: 1px solid #b98d58;
+}
+.kafe-img{
+position: relative;
+  
+}
+ .aboutimg1{
+   position: absolute;
+padding-top: 90px;
+width: 100%;
+object-fit: cover;
+aspect-ratio: 16/9;
+}
+.aboutimg2{
+    position: absolute;
+   left: 300px;
+   top: -101px;
+}
+#product{
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+    background: url(../cafe-image/BG.webp);
+    background-size: cover;
+    background-position: center;
+}
+.product-title{
+    padding-top: 50px;
+    text-align: center;
+}
+.product-title h6{
+    color: #b98d58;
+}
+.product-title h1{
+    padding-top: 40px;
+    font-family: "Sedan SC", serif;
+    font-size: 60px !important;
+}
+.product-title img{
+    padding-top: 40px;
+}
+.product-content{
+    padding-top: 50px;
+}
+
+.pro-img{
+    position: relative;
+    width: 77%;
+}
+.pro-img img{
+width: 100%;
+object-fit: cover;
+
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .pro-img:hover .overlay {
+    opacity: 1;
+  }
+  
+  .pro-icon i{
+    padding: 10px 10px;
+    background-color: #000;
+    border-radius: 50px;
+    transition: .5s;
+   }
+   .pro-icon i:hover{
+    background-color: #b98d58;
+   }
+   .pro-text h5{
+   margin: 20px;
+   }
+   .pro-text h4{
+    margin: 20px;
+    }
+   .pro-text h5 a{
+    color: #000;
+   
+   }
+   .pro-text h5 a:hover{
+    color: #b98d58;
+   }
+#service{
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+    background: url(../cafe-image/BG-5.webp);
+   
+}
+.service-title{
+    padding-top: 50px;
+    text-align: center;
+}
+.service-title h1{
+    font-size: 60px !important;
+    font-family: "Sedan SC", serif;
+}
+.service-title h6{
+    font-size: 20px !important;
+    padding-top: 30px;
+    color: #7A7A7A;
+}
+.service-content{
+    padding-top: 160px;
+   
+}
+.service-box{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    height: 300px;
+    text-align: center;
+    transition: all .5s ease-in-out;
+}
+.service-box:hover{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.serv-icon i{
+    margin-top: 30px;
+    color: #b98d58;
+    font-size: 50px;
+}
+.serv-text h2{
+    margin-top: 30px;
+    }
+.serv-text h2 a{
+    color: #000;
+    font-family: "Sedan SC", serif;
+}
+.serv-text p{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #7A7A7A;
+}
+.servicbtn{
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.servicbtn a button{
+    padding: 12px 30px;
+    background-color: #b98d58;
+    color: #fff;
+    border: 1px solid #b98d58;
+    transition: .5s ease;
+}
+.servicbtn a button:hover{
+    background-color: transparent;
+    color: #b98d58;
+    border: 1px solid #b98d58;
+}
+#offer{
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+    background: linear-gradient(rgba(43, 19, 0, 0.5), rgba(0,0,0,0.8)) , url(../cafe-image/bg3-min.jpg);
+   }
+   .offer-title{
+    text-align: center;
+    color: #f1f1f1;
+    padding-top: 50px;
+   }
+   .offer-title h1{
+    font-size: 60px !important;
+    font-family: "Sedan SC", serif;
+   }
+.off-content{
+    padding-top: 60px;
+}
+.menu-text h4{
+    color: #fff;
+    font-size: 30px !important;
+    font-family: "Sedan SC", serif;
+}
+.menu-text h6{
+    color: #888682;
+    margin-top: 30px;
+}
+.menu-price{
+    color: #b98d58;
+    font-family: "Sedan SC", serif;
+   
+}
+.menu-price h3{
+    font-size: 35px !important;
+}
+   .off-menu{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+   }
+   .menu-btn{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+   }
+   .menu-btn a button{
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #c57e28;
+    border: none;
+    transition: .5s ease;
+   
+   }
+.menu-btn a button:hover{
+    background-color: #b98d58;
+    color: #fff;
+}
+
+
+#cup{
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+}
+.cup-title{
+    padding-top: 50px;
+    text-align: center;
+}
+.cup-title h1{
+    font-size: 60px !important;
+    font-family: "Sedan SC", serif;
+}
+.cup-title img{
+    padding-top: 40px;
+}
+.cup-content{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.cup-img h4{
+    padding-top: 50px;
+    margin-left: 70px;
+}
+.cup-img h4 a{
+    color: #000;
+    font-weight: 400;
+    font-size: 20px !important;
+    transition: all .5s ease-in-out;
+}
+.cup-img h4 a:hover{
+    color: #b98d58;
+}
+#quality{
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+    background: url(../cafe-image/bg3-min.jpg); 
+}
+.quality-title{
+    padding-top: 50px;
+    text-align: center;
+}
+.quality-title h1{
+    font-size: 60px !important;
+    color: #fff;
+    font-family: "Sedan SC", serif;
+}
+.quality-content{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.quality-box{
+    height: auto;
+    background-color: #fff;
+    padding: 30px 30px;
+    text-align: center;
+    margin: 10px auto;
+}
+.quality-box p{
+    width: 53%;
+   margin: 40px auto;
+   color: #7A7A7A;
+
+}
+.quality-box h4{
+    font-family: "Sedan SC", serif;
+}
+.quality-box h5{
+    color: #b98d58;
+}
+.qua-text{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+justify-content: center;
+}
+.qua-text h3{
+    font-size: 20px !important;
+   margin: 10px;
+   color: #7A7A7A;
+}
+#newsletter{
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+    background: url(../cafe-image/BG.webp);
+}
+.news-title{
+    padding-top: 50px;
+    text-align: center;
+}
+.news-title h1{
+    font-size: 60px !important;
+    font-family: "Sedan SC", serif;
+}
+.news-title h6{
+    padding-top: 40px;
+    color: #7A7A7A;
+    font-size: 20px !important;
+}
+.news-content{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.form-box{
+    display: flex;
+ justify-content: center;
+}
+.form-btn button{
+    padding: 10px 20px;
+    background-color: #b98d58;
+    color: #fff;
+    border: none;
+    transition: .5s ease-in-out;
+}
+.form-btn button:hover{
+    background-color: #a38866;
+}
+input[type=text]{
+    width: 50%;
+}
+#visit{
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+}
+.visit-title{
+    padding-top: 50px;
+}
+.visit-title h1{
+    font-size: 60px !important;
+    font-family: "Sedan SC", serif;
+}
+.visit-title h6{
+    font-size: 20px !important;
+    color: #888682;
+    margin-top: 40px;
+}
+.visit-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    color: #888682;
+}
+.author a{
+    color: #888682;
+    transition: all .5s ease-in-out;
+}
+.author a:hover{
+    color: #b98d58;
+}
+.visit-text2{
+    padding: 0 30px;
+}
+.visit-text2 h2 a{
+    color: #000;
+    transition: all .5s ease-in-out;
+    font-family: "Sedan SC", serif;
+}
+.visit-text2 h2 a:hover{
+    color: #b98d58;
+}
+.visit-text2 h5{
+    margin-top: 30px;
+    font-size: 18px !important;
+}
+.visit-text2 h5 a{
+    color: #b98d58;
+    transition: all .5s ease-in-out;
+}
+.visit-text2 h5 a:hover{
+    color: #a38866;
+}
+.visit-content{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#footer{
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    background-color: #2b1a14;
+}
+
+.foot-content{
+    padding-top: 60px;
+    margin: auto;
+}
+
+.foot-icon{
+    margin-top: 50px;
+    
+    }
+    .foot-icon i{
+font-size: 20px;
+margin-left: 10px;
+padding: 7px 7px;
+color: #fff;
+background-color: #b98d58;
+border: none;
+border-radius: 100px;
+cursor: pointer;
+
+    }
+    .foot-icon i:hover{
+background-color: #bd8546b9;
+    }
+    .company{
+        text-align: center;
+    }
+    .company h2{
+        color: #fff;
+        font-size: 30px;
+        font-family: "Sedan SC", serif;
+    font-weight: 400;
+
+    
+    }
+    .company ul{
+        margin-top: 30px;
+    }
+    .company ul a{
+        text-decoration: none;
+    }
+    .company ul a li{
+font-size: 17px;
+color: #b98d58;
+margin-top: 20px;
+    }
+    .company ul a li:hover{
+        color: #c57e28;
+    }
+    .service {
+        text-align: center;
+    }
+    .service h3{
+        color: #fff;
+        font-size: 30px;
+        font-style: oblique;
+    font-weight: 400;
+   
+    }
+    .service ul{
+        margin-top: 30px;
+    }
+    .service ul a{
+        text-decoration: none;
+    }
+    .service ul a li{
+        font-size: 17px;
+color: #b98d58;
+margin-top: 20px;
+    }
+    .service ul a li:hover{
+        color: #c57e28;
+    }
+    .contact{
+        text-align: center;
+    }
+    .contact h2{
+        color: #fff;
+        font-size: 30px;
+        font-style: oblique;
+    font-weight: 400;
+    text-align: center;
+    }
+    .contact h4{
+        font-size: 17px;
+        color: #b98d58;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .contact p{
+        font-size: 17px;
+        color: #888682;
+        text-align: center;
+    }
+    .contact a{
+        text-decoration: none;
+    }
+    .contact a span{
+        
+        font-size: 17px;
+        color: #b98d58;
+    }
+
+    .footer-down{
+        padding-top: 100px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .footer-down p{
+        font-size: 17px;
+        color: #fff;
+    }
+    .footer-down a{
+        text-decoration: none;
+    }
+    .footer-down p a span{
+        font-size: 17px;
+        color: #b98d58;
+    }
+    .footer-down p a span:hover{
+        color: #c57e28;
+    }
+
+
+
+
+
+
+
+    @media(max-width: 768px){
+        .nav-icon{
+            display: none;
+        }
+        .head-btn{
+            display: none;
+        }
+        .aboutimg2{
+            display: none;
+        }
+        .aboutimg1{
+            position: sticky;
+            padding-top: 10px;
+           margin: 20px auto;
+        }
+        .pro-img{
+            margin: auto;
+        }
+        .pro-text{
+            margin-left: 165px;
+        }
+        .service-box{
+            margin: 20px;
+        }
+        .cup-img{
+           text-align: center;
+        }
+        .foot-logo{
+            text-align: center;
+        }
+       
+    }
+    
+    @media(max-width: 468px){
+        .head-content h1{
+            font-size: 28px !important;
+        }
+        .hed-btn2 a button{
+           padding: 5px 25px;
+        }
+        .hed-btn3 a button{
+            padding: 5px 25px;
+        }
+        .about-title h1{
+            font-size: 28px !important;
+        }
+        .about-content{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .product-title h1{
+            font-size: 30px !important;
+        }
+        .pro-text{
+            margin-left: 26px;
+        }
+        .service-title h1{
+            font-size: 28px !important;
+        }
+        .service-content {
+            padding-top: 42px;
+        }
+        .offer-title h1{
+            font-size: 28px !important;
+        }
+        .menu-price{
+            display: none;
+        }
+        .cup-title h1{
+            font-size: 28px !important;
+        }
+        .cup-img h4 {
+            padding-top: 25px;
+            margin-left: 25px;
+        }
+        .quality-title h1{
+            font-size: 28px !important;
+        }
+        .quality-box h5{
+            font-size: 12px !important;
+        }
+        .news-title h1{
+            font-size: 28px !important;
+        }
+        .news-content {
+            padding-top: 60px;
+            padding-bottom: 75px;
+        }
+        .visit-title h1{
+            font-size: 28px !important;
+        }
+        .visit-content {
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+    }
